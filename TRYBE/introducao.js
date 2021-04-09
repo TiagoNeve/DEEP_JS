@@ -40,3 +40,17 @@ console.log(DURACAO_MAX);
  * Boolean -> Valor de true ou false.
  * Para verificar qual o tipo do dado, basta chamar a função typeof();
  */
+/**
+ * Javascript - PARTE 3
+ *
+ * 1 - Operadores aritméticos :
+ * + -> Soma
+ * - -> Subtração
+ * * -> Multiplicação
+ * / -> Divisão
+ * ** -> Exponenciação
+ * % -> Módulo
+ *
+ * 2 - Operadores de Comparação :
+ *
+ */
