@@ -32,3 +32,11 @@ console.log(nomeDaHubDaTrybe);
 
 const DURACAO_MAX = "2 meses";
 console.log(DURACAO_MAX);
+/**
+ * 2 - Tipos primitivos
+ * Tipo básicos de dados que existe em todas as lingaugens
+ * String -> Conjunto de caracteres
+ * Number -> Numeros
+ * Boolean -> Valor de true ou false.
+ * Para verificar qual o tipo do dado, basta chamar a função typeof();
+ */
