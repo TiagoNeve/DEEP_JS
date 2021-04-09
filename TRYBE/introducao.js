@@ -52,5 +52,12 @@ console.log(DURACAO_MAX);
  * % -> Módulo
  *
  * 2 - Operadores de Comparação :
+ * > / >= / < / <= / == / != / === / !==
+ */
+var notaDoAluno = 95;
+var alunoPassouNaProva = notaDoAluno >= 100; // False
+/**
+ * 3 - Operadores lógicos :
+ *
  *
  */
