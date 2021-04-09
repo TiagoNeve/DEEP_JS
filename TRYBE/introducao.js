@@ -67,3 +67,24 @@ var alunoPassouNaProva = notaDoAluno >= 100; // False
  * if -> Se, será executado quando a condição for verdadeira
  * else -> Será executado quando a condição for falsa.
  */
+
+/**
+ *  JavaScript - PARTE 4
+ *
+ * 1 - Arrays :
+ * let cores = ["Verde", "Vermelho", "Amarelo"];
+ * push() -> Adiciona um novo valor no array;
+ * length() -> Verifica o tamanho do array;
+ * Os arrays podem ter vários tipos definidos no mesmo array.
+ * 
+ * Strings são muito parecidos com arrays.
+*/
+let coresDaBandeiraDoCeara = ["Verde", "Amarelo", "Branco"];
+let quantidadeDeCoresDaBandeira = coresDaBandeiraDoCeara.length;
+let primeiraCor = quantidadeDeCoresDaBandeira[0];
+let segundaCor = quantidadeDeCoresDaBandeira[1];
+let terceiraCor = quantidadeDeCoresDaBandeira[2];
+
+let mesDeNascimento = "Julho";
+mesDeNascimento[0]; mesDeNascimento[1]; mesDeNascimento[2];
+let concatenacao = mesDeNascimento[0] + mesDeNascimento[1] + mesDeNascimento[2];
