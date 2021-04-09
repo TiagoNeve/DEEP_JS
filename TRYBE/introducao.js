@@ -61,3 +61,9 @@ var alunoPassouNaProva = notaDoAluno >= 100; // False
  * && -> AND
  * || -> OR
  */
+/**
+ * 4 - Estruturas condicionais :
+ *
+ * if -> Se, será executado quando a condição for verdadeira
+ * else -> Será executado quando a condição for falsa.
+ */
