@@ -58,6 +58,6 @@ var notaDoAluno = 95;
 var alunoPassouNaProva = notaDoAluno >= 100; // False
 /**
  * 3 - Operadores lógicos :
- *
- *
+ * && -> AND
+ * || -> OR
  */
