@@ -16,3 +16,19 @@
  * do problema. Além de ser uma referência para a equipe de desenvolvedores
  * e tem um amplo domínio das tecnologias que estão sendo executadas.
  */
+/**
+ * 1 - Variáveis e constantes - TRYBE
+ *
+ * Variável -> Estrutura capaz de armazenar o valor, essas variavéis tem
+ * nome e valor, esse valor pode ser de vários tipos. Esses valores podem
+ * ser atualizados.
+ * JS utiliza o padrão de nomeação de variáveis CamelCase.
+ * 
+ * Constantes -> Utilizado para criar um valor em um local da memória, mas 
+ * esse valor não pode ser alterado.
+ */
+var nomeDaHubDaTrybe = "Sem HUB";
+console.log(nomeDaHubDaTrybe);
+
+const DURACAO_MAX = "2 meses";
+console.log(DURACAO_MAX);
