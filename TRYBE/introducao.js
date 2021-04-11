@@ -88,3 +88,8 @@ let terceiraCor = quantidadeDeCoresDaBandeira[2];
 let mesDeNascimento = "Julho";
 mesDeNascimento[0]; mesDeNascimento[1]; mesDeNascimento[2];
 let concatenacao = mesDeNascimento[0] + mesDeNascimento[1] + mesDeNascimento[2];
+/**
+ * 2 - Estruturas de repetição :
+ * for -> Estrutura de repetição quando se sabe quantas vezes deve ser executado.
+ * for (var contador = 1; contador <= 9; contador = contador + 1;)
+ */
