@@ -27,3 +27,5 @@ delete myDog.tails;
     e atribuir o retorno da chave em uma variável. Pronto, fez a verificação sem precisar utilizar
     o switch case.
 */
+
+
