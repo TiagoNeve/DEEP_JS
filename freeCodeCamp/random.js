@@ -14,3 +14,7 @@ function randomRange(myMin, myMax) {
 function convertToInteger(str) {
     return parseInt(str);
 }
+
+function convertToInteger(str) {
+    return parseInt(str, 2);
+}
