@@ -38,8 +38,6 @@ function countdown(n) {
     }
 }
 
-console.log(countdown(5));
-
 function countup(n) {
     if (n < 1) {
         return [];
@@ -49,7 +47,6 @@ function countup(n) {
         return countArray;
     }
 }
-console.log(countup(5));
 
 function fatorial(n) {
     if (n === 1) {
@@ -58,4 +55,15 @@ function fatorial(n) {
     return n * fatorial(n - 1);
 }
 
-console.log(fatorial(20));
+function rangeOfNumbers(startNum, endNum) {
+    if (startNum > endNum) {
+        return [];
+    } else {
+        const arr = rangeOfNumbers(startNum + 1, endNum);
+        arr.unshift(startNum);
+        return arr;
+    }
+};
+
+console.log(rangeOfNumbers(1, 5));
+console.log(rangeOfNumbers(4, 4));
