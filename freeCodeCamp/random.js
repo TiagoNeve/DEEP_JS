@@ -18,3 +18,7 @@ function convertToInteger(str) {
 function convertToInteger(str) {
     return parseInt(str, 2);
 }
+
+function checkEqual(a, b) {
+
+}
