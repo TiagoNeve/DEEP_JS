@@ -1,6 +1,6 @@
 // 1 - Declara uma variável de nome weigth
 
-const weigth
+let weigth
 
 // 2 - Que tipo de dado é a variável acima ? 
 
