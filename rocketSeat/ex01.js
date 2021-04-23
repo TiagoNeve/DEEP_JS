@@ -40,3 +40,20 @@ let students = []
 students[0] = student
 
 console.log(students)
+
+// 7 - Coloque no console o valor da posição zero do array
+
+console.log(students[0])
+
+// 8 - Crie um novo student e coloque na posição 1 do array
+
+const stuler = {
+    name: "Stuler",
+    age: 1000,
+    weigth: 71,
+    isSubscribed: true
+}
+
+students[1] = stuler
+
+console.log(students)
