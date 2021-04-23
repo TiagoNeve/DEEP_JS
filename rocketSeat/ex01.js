@@ -29,4 +29,14 @@ student = {
 
 // 4.2 - Mostre no console a seguinte mensagem: <name> de idade <age> pesa <weigth>
 
-console.log(`${student.name} de idade ${student.age} pesa ${student.weight}`)
+console.log(`${student.name} de idade ${student.age} pesa ${student.weight} Kg`)
+
+// 5 - Declare uma variável de tipo array, nome students e nenhum valor.
+
+let students = []
+
+// 6 - Inserir o objeto student dentro do array.
+
+students[0] = student
+
+console.log(students)
