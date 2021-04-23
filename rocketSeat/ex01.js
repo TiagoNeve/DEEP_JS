@@ -57,3 +57,5 @@ const stuler = {
 students[1] = stuler
 
 console.log(students)
+
+// 9 - Questão sobre o hoisting da variáveis declaradas com var.
