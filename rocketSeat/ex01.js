@@ -59,3 +59,10 @@ students[1] = stuler
 console.log(students)
 
 // 9 - Questão sobre o hoisting da variáveis declaradas com var.
+
+
+//  MORE
+
+function fazerSuco(fruta1, fruta2) {
+    return fruta1 + fruta2
+}
