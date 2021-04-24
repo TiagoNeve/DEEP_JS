@@ -37,7 +37,7 @@ function getTotalFamilyAmount(control = "") {
 
     total = amountReceitas - amountDespesas;
 
-    return total > 0 ? `Saldo positivo: ${total}` : `Saldo negativo ${total}`;
+    return total > 0 ? `Saldo positivo: ${total.toFixed(2)}` : `Saldo negativo ${total.toFixed(2)}`;
 }
 
 
