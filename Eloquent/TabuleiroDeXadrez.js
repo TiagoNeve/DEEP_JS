@@ -7,8 +7,9 @@
 let tabuleiro = "";
 let contador = 0;
 let column = 0;
+let size = 8;
 do {
-    for (; column < 8; column++) {
+    for (; column < size; column++) {
 
         if (column % 2 === 0) {
             tabuleiro += "#";
@@ -20,7 +21,7 @@ do {
     tabuleiro += "\n";
     column = 0;
 
-    for (; column < 8; column++) {
+    for (; column < size; column++) {
 
         if (column % 2 === 0) {
             tabuleiro += " ";
@@ -35,5 +36,5 @@ do {
     contador++;
 
 
-} while (contador < 4);
+} while (contador < size / 2);
 console.log(tabuleiro)
