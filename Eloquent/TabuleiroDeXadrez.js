@@ -37,4 +37,6 @@ do {
 
 
 } while (contador < size / 2);
+
+
 console.log(tabuleiro)
